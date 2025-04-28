@@ -67,7 +67,7 @@
         background-color: rgb(85, 82, 255);
         border: 3px solid #fc33fc;
     }
-    
+
     button {
         background-color: transparent;
         cursor: pointer;
@@ -227,7 +227,9 @@
             home.scrollIntoView({behavior:"smooth"});
         });
 
-
+        arrowUp.addEventListener('click', function() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+        });
 
         
     </script>
